@@ -1,6 +1,7 @@
 // Variable Definitions & Dependencies
 const inquirer = require('inquirer');
-const db = require('./db/connection');
+
+var db = require('sequelize')
 
 // Start server after DB connection
 db.connect(err => {

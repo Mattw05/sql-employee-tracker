@@ -1,38 +1,12 @@
 {
-    "name": "sql-employee-tracker",
-    "version": "1.0.0",
-    "description": "Developing a command-line application to manage a company's employee database.",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "seed": "node seeds/seeds.sql"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/mattw05/employee-tracker.git"
-    },
-    "keywords": [
-        "node.js",
-        "inquirer",
-        "mysql"
-    ],
-    "author": "Matt Weigandt",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/mattw05/employee-tracker/issues"
-    },
-    "homepage": "https://github.com/mattw05/employee-tracker#readme",
-    "dependencies": {
-        "connect-session-sequelize": "^7.1.7",
-        "db": "^6.0.3",
-        "dotenv": "^16.4.5",
-        "express": "^4.19.2",
-        "express-session": "^1.18.0",
-        "inquirer": "^8.2.4",
-        "mysql2": "^2.3.3",
-        "pg": "^6.4.2",
-        "prisma": "^5.19.1",
-        "sequelize": "^6.37.3",
-        "sequelize-cli": "^6.6.2"
-    }
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "inquirer": "6.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.0",
+    "pg": "^8.12.0",
+    "sequelize": "^6.37.3"
+  }
 }

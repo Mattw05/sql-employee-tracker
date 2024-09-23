@@ -16,6 +16,6 @@
    View all employees
    Add employee after employee role selection
 
-
-   
+ ## walk through video
+    https://drive.google.com/file/d/1scnYaXvc9Hl78M7pVQdd9BtSl0v8sj8-/view
   
